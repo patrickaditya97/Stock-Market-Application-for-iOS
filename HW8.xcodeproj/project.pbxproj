@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		FB81CC1C2B8FD86B00C0CE0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81CC1B2B8FD86B00C0CE0B /* AppDelegate.swift */; };
 		FB81CC1E2B8FD86B00C0CE0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81CC1D2B8FD86B00C0CE0B /* SceneDelegate.swift */; };
-		FB81CC202B8FD86B00C0CE0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81CC1F2B8FD86B00C0CE0B /* ViewController.swift */; };
+		FB81CC202B8FD86B00C0CE0B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81CC1F2B8FD86B00C0CE0B /* TableViewController.swift */; };
 		FB81CC232B8FD86B00C0CE0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB81CC212B8FD86B00C0CE0B /* Main.storyboard */; };
 		FB81CC252B8FD87300C0CE0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB81CC242B8FD87300C0CE0B /* Assets.xcassets */; };
 		FB81CC282B8FD87300C0CE0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB81CC262B8FD87300C0CE0B /* LaunchScreen.storyboard */; };
+		FB81CC302B925FB700C0CE0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81CC2F2B925FB700C0CE0B /* ViewController.swift */; };
+		FB81CC322B93E45C00C0CE0B /* StockPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81CC312B93E45C00C0CE0B /* StockPageViewController.swift */; };
+		FB81CC342B9E3F8800C0CE0B /* BuySellPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81CC332B9E3F8800C0CE0B /* BuySellPageViewController.swift */; };
+		FB81CC362B9E4D9B00C0CE0B /* StockMetaDataSingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81CC352B9E4D9B00C0CE0B /* StockMetaDataSingletonClass.swift */; };
+		FBAF31A22B9FBFDE000D8A07 /* CurrentOrdersSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF31A12B9FBFDE000D8A07 /* CurrentOrdersSingleton.swift */; };
+		FBAF31A42B9FCD60000D8A07 /* CurrentOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF31A32B9FCD60000D8A07 /* CurrentOrdersViewController.swift */; };
+		FBAF31A62BA39872000D8A07 /* PortfolioPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF31A52BA39872000D8A07 /* PortfolioPageViewController.swift */; };
+		FBAF31A82BA4BDFB000D8A07 /* WatchlistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF31A72BA4BDFB000D8A07 /* WatchlistTableViewController.swift */; };
+		FBAF31AA2BA4C06B000D8A07 /* WatchlistDataSingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF31A92BA4C06B000D8A07 /* WatchlistDataSingletonClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB81CC182B8FD86B00C0CE0B /* HW8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB81CC1B2B8FD86B00C0CE0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB81CC1D2B8FD86B00C0CE0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB81CC1F2B8FD86B00C0CE0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB81CC1F2B8FD86B00C0CE0B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FB81CC222B8FD86B00C0CE0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB81CC242B8FD87300C0CE0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB81CC272B8FD87300C0CE0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB81CC292B8FD87300C0CE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB81CC2F2B925FB700C0CE0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB81CC312B93E45C00C0CE0B /* StockPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPageViewController.swift; sourceTree = "<group>"; };
+		FB81CC332B9E3F8800C0CE0B /* BuySellPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuySellPageViewController.swift; sourceTree = "<group>"; };
+		FB81CC352B9E4D9B00C0CE0B /* StockMetaDataSingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockMetaDataSingletonClass.swift; sourceTree = "<group>"; };
+		FBAF31A12B9FBFDE000D8A07 /* CurrentOrdersSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentOrdersSingleton.swift; sourceTree = "<group>"; };
+		FBAF31A32B9FCD60000D8A07 /* CurrentOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentOrdersViewController.swift; sourceTree = "<group>"; };
+		FBAF31A52BA39872000D8A07 /* PortfolioPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioPageViewController.swift; sourceTree = "<group>"; };
+		FBAF31A72BA4BDFB000D8A07 /* WatchlistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistTableViewController.swift; sourceTree = "<group>"; };
+		FBAF31A92BA4C06B000D8A07 /* WatchlistDataSingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistDataSingletonClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +76,16 @@
 			children = (
 				FB81CC1B2B8FD86B00C0CE0B /* AppDelegate.swift */,
 				FB81CC1D2B8FD86B00C0CE0B /* SceneDelegate.swift */,
-				FB81CC1F2B8FD86B00C0CE0B /* ViewController.swift */,
+				FB81CC2F2B925FB700C0CE0B /* ViewController.swift */,
+				FB81CC1F2B8FD86B00C0CE0B /* TableViewController.swift */,
+				FB81CC312B93E45C00C0CE0B /* StockPageViewController.swift */,
+				FB81CC332B9E3F8800C0CE0B /* BuySellPageViewController.swift */,
+				FB81CC352B9E4D9B00C0CE0B /* StockMetaDataSingletonClass.swift */,
+				FBAF31A12B9FBFDE000D8A07 /* CurrentOrdersSingleton.swift */,
+				FBAF31A32B9FCD60000D8A07 /* CurrentOrdersViewController.swift */,
+				FBAF31A52BA39872000D8A07 /* PortfolioPageViewController.swift */,
+				FBAF31A92BA4C06B000D8A07 /* WatchlistDataSingletonClass.swift */,
+				FBAF31A72BA4BDFB000D8A07 /* WatchlistTableViewController.swift */,
 				FB81CC212B8FD86B00C0CE0B /* Main.storyboard */,
 				FB81CC242B8FD87300C0CE0B /* Assets.xcassets */,
 				FB81CC262B8FD87300C0CE0B /* LaunchScreen.storyboard */,
@@ -138,8 +165,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB81CC202B8FD86B00C0CE0B /* ViewController.swift in Sources */,
+				FBAF31A82BA4BDFB000D8A07 /* WatchlistTableViewController.swift in Sources */,
+				FB81CC202B8FD86B00C0CE0B /* TableViewController.swift in Sources */,
 				FB81CC1C2B8FD86B00C0CE0B /* AppDelegate.swift in Sources */,
+				FB81CC342B9E3F8800C0CE0B /* BuySellPageViewController.swift in Sources */,
+				FB81CC362B9E4D9B00C0CE0B /* StockMetaDataSingletonClass.swift in Sources */,
+				FBAF31A22B9FBFDE000D8A07 /* CurrentOrdersSingleton.swift in Sources */,
+				FBAF31AA2BA4C06B000D8A07 /* WatchlistDataSingletonClass.swift in Sources */,
+				FBAF31A42B9FCD60000D8A07 /* CurrentOrdersViewController.swift in Sources */,
+				FBAF31A62BA39872000D8A07 /* PortfolioPageViewController.swift in Sources */,
+				FB81CC322B93E45C00C0CE0B /* StockPageViewController.swift in Sources */,
+				FB81CC302B925FB700C0CE0B /* ViewController.swift in Sources */,
 				FB81CC1E2B8FD86B00C0CE0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
